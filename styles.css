@@ -1,0 +1,45 @@
+* {
+    font-family: "OCR A Std", monospace;
+}
+
+button {
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+
+.calc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.rowOne {
+    grid-row: 2;
+}
+.rowTwo {
+    grid-row: 3;
+}
+.rowThree {
+    grid-row: 4;
+}
+.rowFour {
+    grid-row: 5;
+}
+#output {
+    text-align: right;
+}
+
